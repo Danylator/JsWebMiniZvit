@@ -1,0 +1,97 @@
+.mainbody{
+    display: flex;
+    min-height: 600px;
+    max-height: 100%;
+    overflow: auto;
+    width: 100%;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    gap: 25px;
+    align-items:center;
+ 
+    width: 27%;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.right{
+    
+    margin-left: 1%;
+    width: 72%;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 23px;
+}
+.header{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.header_text{
+    text-align: center;
+    font-size: 30px;
+}
+.header_right{
+     display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: 100%;
+    padding: 10px;
+
+}
+.header_right_txt{
+    flex: 1;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 140px;
+}
+.img_right{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.profile-img {
+    width: 120px;     
+    height: 120px;
+    object-fit: cover;  
+    border-radius: 50%; 
+    border: 2px solid #ccc; 
+    margin-right: 50px;
+}
+.labs_line{
+    display: flex;
+    height: 50px;
+    margin: 10px;
+}
+.btn {
+    padding: 10px 20px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.btn_linka{
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+.btn:hover {
+    background-color: darkgray;
+    transform: scale(1.05);
+}
+.btn:active {
+    background-color: #3e8e41;
+    transform: scale(0.98);
+}
+.btn_left{
+    padding: 22px;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 80%;
+}
